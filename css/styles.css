@@ -1,0 +1,504 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/*----HEADER-----*/
+header{
+    margin-top: 35px;
+}
+
+header h1{
+    font-family: 'Yeseva One', cursive;
+    text-align: center;
+    font-size: 38px;
+}
+
+header p{
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+}
+
+
+.nav-list{
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    gap: 12px;
+    margin-top: 12px;
+}
+
+.nav-list li a{
+    text-decoration: none;
+    color: black;
+    font-family: 'Poppins', sans-serif;
+}
+.abrir-menu{
+    display: none;
+}
+
+.abrir-menu,
+.cerrar-menu{
+    display: none;
+}
+
+
+
+/*----MAIN-----*/
+
+/*----TARJETA-----*/
+
+.linea1,
+.linea-arriba{
+    height: 26px;
+    text-align: center;
+    margin-bottom: 28px;
+}
+
+.linea2,
+.linea-abajo{
+    height: 27px;
+    text-align: center;
+    margin-top: 23px;
+}
+
+.perfil{
+    text-align: center;
+}
+
+.perfil,
+.perfil-front{
+    height: 180px;
+}
+
+.article,
+.bajada{
+    margin-top: 40px;
+    font-family: 'Poppins', sans-serif;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+.article,
+.quotes{
+    font-family: 'Poppins', sans-serif; 
+    margin-left: 30px;
+    font-style: italic;
+    margin-top: 8px;
+}
+
+/*----CONTENIDO-----*/
+
+.hits{
+    text-align: center;
+}
+
+.article,
+h2{
+    font-family: 'Oswald', sans-serif;
+    margin-top: 90px;
+    text-align: center;
+    font-size: 3rem;
+}
+
+
+.discos,
+.albums{
+    text-align: center;
+    height: 180px;
+    margin-top: 20px;
+}
+
+.song{
+    text-align: center;
+}
+
+.song-titles{
+    margin-top: 60px;
+    margin-left: 30px;
+    font-family: 'Oswald', sans-serif;
+    font-size: 29px;
+    text-align: center;
+}
+
+.iframe-song{
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.home-text{
+    margin-left: 30px;
+    margin-right: 30px;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+
+
+
+/*----BIOGRAPHY-----*/
+
+.perfil2{
+    height: 200px;
+}
+
+.bio{
+    text-align: center;
+}
+
+.bio-logo{
+    height: 40px;
+}
+
+.biography{
+    text-align: center;
+    margin-top: 40px;
+}
+
+.bio-text{
+    margin-bottom: 100px;
+}
+
+
+.bio-text,
+h2{
+    text-align: left;
+    margin-left: 10px;
+    margin-right: 10px;
+    font-size: 30px;
+}
+
+.bio-text,
+p{
+    font-size: 17px;
+    margin-left: 10px;
+    margin-top: 25px;
+}
+
+/*----DISCOGRAPHY-----*/
+
+.blomi{
+    display: grid;
+    grid-template-columns: 30% 30% 30%;
+    column-gap: 10rem;
+    font-size: 1.8rem;
+    margin-right: 20px;
+}
+
+.disc1{
+    background-color: #808C8C;
+    padding: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    border-radius: 20px;
+}
+
+.self{
+    display: grid;
+    grid-template-columns: 30% 30%;
+    column-gap: 10rem;
+    font-size: 1.8rem;
+    margin-right: 20px;
+}
+
+.disc2{
+    background-color: #345C7B;
+    padding: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    border-radius: 20px;
+}
+
+.trouble{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    column-gap: 29px;
+    font-size: 1.8rem;
+    margin-right: 20px;
+}
+
+.disc3{
+    background-color: #4C5340;
+    padding: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    border-radius: 20px;
+}
+
+.love{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    column-gap: 29px;
+    font-size: 1.8rem;
+    margin-right: 20px;
+}
+
+.disc4{
+    background-color: #E5D0A1;
+    padding: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    border-radius: 20px;
+}
+
+.veil{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    column-gap: 29px;
+    font-size: 1.8rem;
+    margin-right: 20px;
+}
+
+.disc5{
+    background-color: #10352D;
+    padding: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    border-radius: 20px;
+}
+
+.brothel{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    column-gap: 29px;
+    font-size: 1.8rem;
+    margin-right: 20px;
+}
+
+.disc6{
+    background-color: #019473;
+    padding: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    border-radius: 20px;
+}
+
+.sussane{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    column-gap: 29px;
+    font-size: 1.8rem;
+    margin-right: 20px;
+}
+
+.disc7{
+    background-color: #A6BC48;
+    padding: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    border-radius: 20px;
+}
+
+/*----LIVE-----*/
+
+.live{
+    height: 256px;
+}
+
+.youtube-button {
+    border: 3px solid #ccc;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    cursor: pointer;
+    color: #333;
+    border-radius: 1.5rem;
+    font-family: 'Poppins', sans-serif;
+}
+
+.boton{
+    text-align: center;
+}
+
+.youtube-button:hover {
+    background-color: #ccc;
+    color: #fff;
+}
+
+.titlelive{
+    font-family: 'Oswald', sans-serif; 
+    font-size: 20px;
+    margin-top: 2px;
+}
+
+.txt{
+    font-family: 'Poppins', sans-serif;
+    margin-top: 50px;
+}
+
+
+
+
+/*----FOOTER-----*/
+
+.footer{
+    display: grid;
+    grid-template-columns: 30% 30% 30%;
+    column-gap: 5%;
+    padding-bottom: 2rem;
+    background-color: #1F2121;
+    color: white;
+}
+
+.follow,
+li{
+    list-style: none;
+}
+
+.footer,
+h4{
+    font-family: 'Oswald', sans-serif;  
+    font-size: 16px;
+    padding-left: 31px;
+    padding-top: 25px;
+}
+
+.footer,
+li{
+    font-family: 'Poppins', sans-serif;
+    font-size: 12px;
+    padding-top: 10px;
+    padding-left: 1px;
+}
+
+.logo{
+    text-align: center;
+    margin-top: 80px;
+    margin-bottom: 80px;
+}
+
+.img-logo{
+    height: 50px;
+}
+
+
+.logo-text{
+    font-family: 'Poppins', sans-serif;
+    margin-top: 20px;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+/*----RESPONSIVE-----*/
+
+
+@media screen and (max-width: 472px){
+    .abrir-menu,
+    .cerrar-menu {
+        display: block;
+        border: 0;
+        background-color: transparent;
+        cursor: pointer;
+    }
+
+    .cerrar-menu{
+        margin-top: 100px;
+    }
+
+    .abrir-menu{
+        display: block;
+        border: 0;
+        background-color: transparent;
+    }
+
+
+    .nav{
+        visibility: hidden;
+        opacity: 0;
+
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+        top: 0;
+        background-color: white;
+        bottom: 0;
+        gap: 1rem;
+        box-shadow: 0 0 0 100vmax rgba(0, 0, 0, .5);
+        left: 0;
+        padding-right: 50px;
+        padding-left: 50px;
+    }
+
+    .nav.visible{
+        opacity: 1;
+        visibility: visible;
+    }
+
+
+    .nav-list{
+        flex-direction: column;
+    }
+
+    .nav-list li a{
+        color: black;
+    }
+
+}
+
+@media screen and (min-width: 1000px){
+    .h1{
+        font-size: 5rem;
+        text-align: center;
+    }
+
+    .title-quote{
+        font-family: 'Poppins', sans-serif;
+        text-align: center;
+        font-size: 30px;
+        margin-top: 3rem;
+    }
+
+    .nav{
+            margin-top: 8rem;
+            display: block;
+            padding: 3rem;
+            text-decoration: none;
+            text-align: center;
+            font-size: 10rem;
+    }
+
+    .nav-list{
+        display: grid;
+        grid-auto-flow: column;
+    }
+
+    li:hover{
+        color: black;
+        background: grey;
+        border-radius: 7px;
+    }
+
+    li{
+        list-style: none;
+        color: white;
+        font-family: 'Poppins', sans-serif
+    }
+
+    a{
+        text-decoration: none;
+        color: black;
+        font-size: 2rem;
+        padding: 80px;
+    }
+
+    .perfil-front{
+        height: 150%;
+        margin-top: 90px;
+    }
+
+    .linea-arriba{
+        height: 330%;
+        text-align: center;
+        margin-top: 100px;
+    }
+
+    .linea-abajo{
+        height: 330%;
+        text-align: center;
+        margin-top: 400px;
+    }
+    
+
+}
+
